@@ -1,0 +1,6 @@
+{
+  "name": "LogLens AI",
+  "description": "Intelligent Log Analysis & Incident Investigation platform for developers and DevOps teams.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
