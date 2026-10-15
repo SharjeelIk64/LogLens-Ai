@@ -1,20 +1,47 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# LogLens AI 🔍
 
-# Run and deploy your AI Studio app
+**AI-Powered Intelligent Log Monitoring and Failure Analysis**
 
-This contains everything you need to run your app locally.
+LogLens AI helps developers analyze application logs, identify errors, detect potential failures, and troubleshoot issues efficiently using the **OpenMate model** for AI-powered log analysis and insights.
 
-View your app in AI Studio: https://ai.studio/apps/76e3f202-5924-464b-9864-49d81be8016d
+## ✨ Features
+- 📄 Application log analysis
+- 🚨 Error and anomaly identification
+- 🤖 AI-powered insights using OpenMate
+- 🔍 Troubleshooting and remediation suggestions
+- 📊 Simple and interactive Streamlit interface
 
-## Run Locally
+## 🛠️ Tech Stack
+- **Language:** Python
+- **Frontend:** Streamlit
+- **AI Model:** OpenMate
+- **Tools:** Git and GitHub
 
-**Prerequisites:**  Node.js
+## 🚀 Run Locally
 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SharjeelIk64/LogLens-Ai.git
+   cd LogLens-Ai
+   ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Configure any required API credentials in your environment variables, if applicable.
+
+4. Run the application:
+   ```bash
+   streamlit run app.py
+   ```
+
+## 🎯 Project Goal
+To simplify log monitoring and troubleshooting by combining log analysis with AI-powered insights, helping developers identify and understand application issues faster.
+
+## 📂 Repository
+[LogLens AI on GitHub](https://github.com/SharjeelIk64/LogLens-Ai)
+
+---
+Developed as an AI-powered log monitoring project.
